@@ -1,6 +1,6 @@
 #include "main.h"
 
-#define  DHT_While_Timeout_Control					150		// Timeout 	Control
+#define  DHT_While_Timeout_Control					150			// Timeout 	Control
 #define  DHT_Start_Time								1500		// Start  	Signal 	Time
 #define  DHT_Wait_Response_Time						30			// Response Signal 	Time
 #define	 DHT_Onebit_Send_Time						60			// OneBit 	Send 	Time
