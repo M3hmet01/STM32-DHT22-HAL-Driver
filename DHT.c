@@ -56,7 +56,7 @@ void Set_Pin_Input	 		(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin_x){
  * @brief  Sends the start signal to wake up the DHT22 sensor (Pull LOW).
  * @param  GPIOx: GPIO Port
  * @param  GPIO_Pin_x: GPIO Pin number
- * @param  delay: Duration to hold the line low (usually > 1ms)
+ * @param  delay: Duration to hold the line low
  */
 
 void DHT_Start_Signal		(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin_x, uint16_t delay ){
@@ -69,7 +69,7 @@ void DHT_Start_Signal		(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin_x, uint16_t delay
  * @brief  Releases the line (Pull HIGH) and waits for the sensor's response.
  * @param  GPIOx: GPIO Port
  * @param  GPIO_Pin_x: GPIO Pin number
- * @param  delay: Duration to wait (usually 20-40us)
+ * @param  delay: Duration to wait
  */
 
 void DHT_Wait_Time			(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin_x, uint16_t delay ){
